@@ -1,35 +1,10 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
+import BurguerAPP from "../assets/projects/burguer_app.png";
 
-export const data=[
-    {
-        id:1,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
-    },
-    {
-        id:2,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
-    },
-    {
-        id:3,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
-    },
-    {
-        id:4,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
-    },
-
-
-]
+export const data = [
+  {
+    id: 1,
+    name: "Burguer delivery app",
+    image: BurguerAPP,
+    github: "https://github.com/leoamorimr/burguer-project-vue",
+  },
+];
