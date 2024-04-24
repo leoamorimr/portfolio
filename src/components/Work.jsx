@@ -2,9 +2,8 @@ import React from "react";
 import { data } from "../data/data.js";
 
 const Work = () => {
-  // projects file
+  
   const project = data;
-  //setProject(data);
 
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
@@ -18,7 +17,7 @@ const Work = () => {
 
         {/* container for projects */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {/* Gird Item */}
+          {/* Grid Item */}
           {project.map((item, index) => (
             <div
               key={index}
