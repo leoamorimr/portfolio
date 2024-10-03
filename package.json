@@ -16,6 +16,9 @@
     "tailwindcss": "^3.1.6",
     "web-vitals": "^2.1.0"
   },
+  "devDependencies": {
+    "rollup": ">=2.79.2"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
